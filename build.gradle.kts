@@ -23,7 +23,7 @@ tasks.withType<JavaCompile>().configureEach {
     options.release.set(17)
 }
 
- tasks.processResources {
+tasks.processResources {
     filteringCharset = "UTF-8"
     filesMatching("plugin.yml") {
         expand("version" to project.version)
