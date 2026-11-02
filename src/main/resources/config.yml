@@ -1,0 +1,8 @@
+min-players: 2
+round-seconds: 180
+
+# Set these locations in-game with /phs setlobby, /phs sethider, and /phs setseeker.
+locations:
+  lobby: {}
+  hider-spawn: {}
+  seeker-spawn: {}

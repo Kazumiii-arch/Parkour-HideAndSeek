@@ -1,0 +1,15 @@
+name: ParkourHideAndSeek
+version: '${version}'
+main: com.kazumiii.parkourhideseek.ParkourHideAndSeek
+api-version: '1.20'
+author: Kazumiii-arch
+description: Parkour-powered multiplayer hide and seek with seeker release and rift pulses.
+commands:
+  phs:
+    description: Join and manage Parkour Hide & Seek rounds.
+    usage: /phs <join|leave|status|help|start|stop|setlobby|sethider|setseeker>
+    aliases: [parkourhideseek, hideandseek]
+permissions:
+  parkourhideseek.admin:
+    description: Configure and manage Parkour Hide & Seek rounds.
+    default: op
